@@ -1,0 +1,14 @@
+- room count
+- get room temperature
+- get heating target temperature of rooms
+- set heating target temperature of rooms
+- get room lights
+- set room lights
+
+
+
+std::uint8_t get_room_count() const noexcept;
+std::uint8_t get_heating_target_temperature_of_rooms(const std::vector<std::uint8_t>& room_ids) const noexcept;
+
+10 + (0..30)
+0..9
